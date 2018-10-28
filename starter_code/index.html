@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,35 +11,37 @@
 
   <title>IH Characters</title>
 </head>
+
 <body>
+  <!-- GET Character list -->
   <section class="container">
     <h1>Ironhack Characters API</h1>
     <div class="characters-container">
-      <div class="character-info">
-        <div class="name">Character Name</div>
-        <div class="occupation">Character Occupation</div>
-        <div class="cartoon">Is a Cartoon?</div>
-        <div class="weapon">Character Weapon</div>
-      </div>
+
     </div>
+    <!-- FETCH ALL -->
     <section class="operations">
       <div class="operation">
         <button id="fetch-all">Fetch all</button>
       </div>
+      <!-- FETCH ONE -->
       <div class="operation">
         <label for="character-id">Search by ID: </label>
         <input type="text" name="character-id">
         <button id="fetch-one">Fetch one</button>
       </div>
+      <!-- DELETE -->
       <div class="operation delete">
         <label for="character-id-delete">Delete by ID: </label>
         <input type="text" name="character-id-delete">
         <button id="delete-one">Delete one</button>
       </div>
-
     </section>
   </section>
+
+  <!-- POST & PATCH new character -->
   <section class="container">
+    <!-- POST -->
     <section class="form-container">
       <h2>New Character</h2>
       <form id="new-character-form" class="character-form">
@@ -61,6 +64,8 @@
         <button id="send-data">Create</button>
       </form>
     </section>
+
+    <!-- PATCH -->
     <section class="form-container">
       <h2>Edit Character</h2>
       <form id="edit-character-form" class="character-form">
@@ -84,11 +89,13 @@
           <label for="cartoon">Is a Cartoon: </label>
           <input name="cartoon" type="checkbox">
         </div>
-        <button id="send-data">Update</button>
+        <button id="update-data">Update</button>
       </form>
     </section>
   </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script type="text/javascript" src="./public/javascript/APIHandler.js"></script>
   <script type="text/javascript" src="./public/javascript/index.js"></script>
 </body>
+
 </html>

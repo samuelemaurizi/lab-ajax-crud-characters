@@ -1,0 +1,39 @@
+{
+  "characters": [
+    {
+      "id": 2,
+      "name": "Luke Skywalker",
+      "occupation": "Jedi Knight",
+      "weapon": "Lightsaber",
+      "cartoon": false
+    },
+    {
+      "name": "Jannifer",
+      "occupation": "Hacker",
+      "weapon": "Fingers",
+      "cartoon": false,
+      "id": 3
+    },
+    {
+      "name": "John",
+      "occupation": "Printer",
+      "weapon": "Duck",
+      "cartoon": false,
+      "id": 6
+    },
+    {
+      "name": "Brumo",
+      "occupation": "Player2",
+      "weapon": "Dick",
+      "cartoon": false,
+      "id": 7
+    },
+    {
+      "name": "Chris",
+      "occupation": "Keeper",
+      "weapon": "Boulevardier",
+      "cartoon": true,
+      "id": 10
+    }
+  ]
+}
